@@ -14,6 +14,8 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+containerPort: 80
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
@@ -37,7 +39,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: LoadBalancer 
   port: 80
 
 ingress:
