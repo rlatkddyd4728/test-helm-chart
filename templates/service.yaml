@@ -5,7 +5,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-type: external             ## nlb
     service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: ip        ## 타겟 그룹 타입 ip
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing    ## 외부 트래픽 허용    
-    service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-00b1870d5bc6f128b,subnet-0327e6b95b9001d77           ## 퍼블릭 서브넷 지정
+    service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-05ac7d9b7c1509757,subnet-03acee8be974e8d6d          ## 퍼블릭 서브넷 지정
   name: apache-nlb
   labels:
     app: test-app
