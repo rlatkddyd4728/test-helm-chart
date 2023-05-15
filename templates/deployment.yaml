@@ -21,6 +21,5 @@ spec:
             - name: http
               containerPort: {{ .Values.containerPort }}
               protocol: TCP
-      nodeSelector: 
-          role: bnf-game
+
 
